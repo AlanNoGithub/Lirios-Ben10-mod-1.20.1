@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "lirioben10mod",
+	"version": "${version}",
+	"name": "Lirio's Ben 10 Mod",
+	"description": "Esse é um mod de Ben10 Feito pelo Alan",
+	"authors": [
+		"AlanCL!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/lirioben10mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.alan.lirioben10mod.LiriosBen10Mod"
+		],
+		"client": [
+			"net.alan.lirioben10mod.LiriosBen10ModClient"
+		],
+		"fabric-datagen": [
+			"net.alan.lirioben10mod.LiriosBen10ModDataGenerator"
+		]
+	},
+	"mixins": [
+		"lirioben10mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.24",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
