@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "lirioben10mod:block/omni_block"
+  }
+}

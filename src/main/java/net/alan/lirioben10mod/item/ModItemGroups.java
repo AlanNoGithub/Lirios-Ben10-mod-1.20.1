@@ -1,6 +1,7 @@
 package net.alan.lirioben10mod.item;
 
 import net.alan.lirioben10mod.LiriosBen10Mod;
+import net.alan.lirioben10mod.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -16,6 +17,8 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.OMNITRIXCORE)).entries((displayContext, entries) -> {
                         entries.add(ModItems.OMNITRIXCORE);
                         entries.add(ModItems.OMNITRIX);
+
+                        entries.add(ModBlocks.OMNI_BLOCK);
 
                     }).build());
 
