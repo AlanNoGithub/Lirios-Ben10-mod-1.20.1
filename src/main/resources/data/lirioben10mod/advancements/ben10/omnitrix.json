@@ -1,0 +1,38 @@
+{
+  "parent": "lirioben10mod:ben10/root",
+  "criteria": {
+    "omnitrix": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "lirioben10mod:omnitrix"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.omnitrix.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "lirioben10mod:omnitrix"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.omnitrix.title"
+    }
+  },
+  "requirements": [
+    [
+      "omnitrix"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

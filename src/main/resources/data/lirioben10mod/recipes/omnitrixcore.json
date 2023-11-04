@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "/": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "_": {
+      "item": "minecraft:emerald"
+    },
+    "X": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "pattern": [
+    "_/_",
+    "/X/",
+    "_/_"
+  ],
+  "result": {
+    "item": "lirioben10mod:omnitrixcore"
+  },
+  "show_notification": true
+}

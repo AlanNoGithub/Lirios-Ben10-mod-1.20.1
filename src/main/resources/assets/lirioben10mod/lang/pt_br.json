@@ -4,5 +4,10 @@
 
   "block.lirioben10mod.omni_block": "Bloco de Omni",
 
-  "itemgroup.ben10": "Lirio's Ben10"
+  "itemgroup.ben10": "Lirio's Ben10",
+
+  "advancements.omnitrix.title": "Omnitrix!",
+  "advancements.omnitrix.desc": "Tá na hora de virar!",
+  "advancements.ben10.root.description": "Começe no Mod.",
+  "advancements.ben10.root.title": "O Começo de tudo."
 }

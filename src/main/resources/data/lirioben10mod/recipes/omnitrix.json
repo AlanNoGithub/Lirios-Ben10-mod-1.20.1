@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "/": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "_": {
+      "item": "minecraft:quartz"
+    },
+    "X": {
+      "item": "lirioben10mod:omnitrixcore"
+    }
+  },
+  "pattern": [
+    "_/_",
+    "/X/",
+    "_/_"
+  ],
+  "result": {
+    "item": "lirioben10mod:omnitrix"
+  },
+  "show_notification": true
+}

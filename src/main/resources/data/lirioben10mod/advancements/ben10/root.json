@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "crafting_table": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crafting_table"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "lirioben10mod:textures/block/omni_block.png",
+    "description": {
+      "translate": "advancements.ben10.root.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "lirioben10mod:omni_block"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.ben10.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "crafting_table"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
